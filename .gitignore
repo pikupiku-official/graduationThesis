@@ -1,0 +1,45 @@
+# Python and local environments
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+env/
+.env
+.env.*
+
+# Large datasets, model weights, and generated artifacts
+data/raw/*
+!data/raw/README.md
+data/processed/*
+!data/processed/README.md
+models/
+checkpoints/
+outputs/
+*.safetensors
+*.bin
+*.gguf
+*.pt
+*.pth
+
+# Local experiment logs and caches
+.cache/
+wandb/
+mlruns/
+*.log
+*.tmp
+*.swp
+
+# Document previews and temporary QA output
+.qa/
+*.pdf
+!references/*.pdf
+
+# OS/editor files
+.DS_Store
+Thumbs.db
+~$*
+.vscode/
+.idea/
