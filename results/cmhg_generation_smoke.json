@@ -1,0 +1,38 @@
+{
+  "purpose": "Pipeline smoke test; not a model-performance estimate",
+  "dataset_revision": "71e854248c3af4f12ad04abfb85848a0d648ae9e",
+  "model_id": "Qwen/Qwen3-8B",
+  "model_revision": "b968826d9c46dd6066d109eabc6255188de91218",
+  "languages": {
+    "bo": {
+      "n": 20,
+      "inference_seconds_median": 10.198,
+      "inference_seconds_max": 10.971,
+      "input_clipped_count": 15,
+      "blank_output_count": 0,
+      "hit_generation_token_cap_count": 16,
+      "generation_token_cap": 96,
+      "article_token_budget": 1800
+    },
+    "mn": {
+      "n": 20,
+      "inference_seconds_median": 7.722,
+      "inference_seconds_max": 9.665,
+      "input_clipped_count": 14,
+      "blank_output_count": 0,
+      "hit_generation_token_cap_count": 13,
+      "generation_token_cap": 96,
+      "article_token_budget": 1800
+    },
+    "ug": {
+      "n": 20,
+      "inference_seconds_median": 7.908,
+      "inference_seconds_max": 9.076,
+      "input_clipped_count": 16,
+      "blank_output_count": 0,
+      "hit_generation_token_cap_count": 9,
+      "generation_token_cap": 96,
+      "article_token_budget": 1800
+    }
+  }
+}

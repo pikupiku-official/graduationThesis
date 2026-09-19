@@ -1,0 +1,196 @@
+{
+  "dataset_id": "KEVVVV/CMHG",
+  "revision": "71e854248c3af4f12ad04abfb85848a0d648ae9e",
+  "scope": "Exact ID and title-content overlap between full and annotated CSVs; near duplicates not checked",
+  "languages": {
+    "bo": {
+      "file": "bo/bo-all.csv",
+      "bytes": 570812548,
+      "sha256": "41d60cd5a9e7d480bd3f2ded02759b149c5a4478f80cedd48f134ec45c7a0284",
+      "columns": [
+        "id",
+        "title",
+        "content",
+        "url"
+      ],
+      "rows": 98439,
+      "row_width_errors": 0,
+      "missing_id": 0,
+      "missing_title": 0,
+      "missing_content": 0,
+      "duplicate_ids_within_full": 0,
+      "duplicate_title_content_pairs_within_full": 13220,
+      "annotated_unique_ids": 3000,
+      "annotated_unique_title_content_pairs": 2986,
+      "annotated_unique_normalized_contents": 2979,
+      "full_rows_matching_annotated_id": 0,
+      "full_rows_matching_annotated_pair": 971,
+      "full_rows_matching_both": 0,
+      "full_rows_matching_annotated_normalized_content": 1468,
+      "full_rows_matching_content_but_not_pair": 497,
+      "unique_annotated_pairs_found_in_full": 705,
+      "matched_pair_url_hosts_top_10": [
+        [
+          "tb.kangbatv.com",
+          273
+        ],
+        [
+          "www.shangri-latibet.cn",
+          212
+        ],
+        [
+          "tb.tibet.cn",
+          129
+        ],
+        [
+          "www.himalayabon.com",
+          98
+        ],
+        [
+          "www.qhtb.cn",
+          96
+        ],
+        [
+          "tb.xzxw.com",
+          79
+        ],
+        [
+          "himalayabon.com",
+          48
+        ],
+        [
+          "ti.kbcmw.com",
+          16
+        ],
+        [
+          "www.tibetcnr.com",
+          11
+        ],
+        [
+          "www.amdotibet.cn",
+          4
+        ]
+      ],
+      "candidate_training_rows_after_exact_exclusion": 97468,
+      "candidate_training_rows_after_content_exclusion": 96971
+    },
+    "mn": {
+      "file": "mn/mn-all.csv",
+      "bytes": 330051948,
+      "sha256": "db11109607b085700143fc8236983c269cb4cc06ce7b2323716ceb01a2c73301",
+      "columns": [
+        "id",
+        "title",
+        "content",
+        "url"
+      ],
+      "rows": 51946,
+      "row_width_errors": 0,
+      "missing_id": 0,
+      "missing_title": 0,
+      "missing_content": 0,
+      "duplicate_ids_within_full": 0,
+      "duplicate_title_content_pairs_within_full": 6287,
+      "annotated_unique_ids": 2998,
+      "annotated_unique_title_content_pairs": 2978,
+      "annotated_unique_normalized_contents": 2974,
+      "full_rows_matching_annotated_id": 0,
+      "full_rows_matching_annotated_pair": 856,
+      "full_rows_matching_both": 0,
+      "full_rows_matching_annotated_normalized_content": 1202,
+      "full_rows_matching_content_but_not_pair": 346,
+      "unique_annotated_pairs_found_in_full": 705,
+      "matched_pair_url_hosts_top_10": [
+        [
+          "mgl.hlbe.gov.cn",
+          549
+        ],
+        [
+          "mgl.bynr.gov.cn",
+          105
+        ],
+        [
+          "mgl.xlgl.gov.cn",
+          59
+        ],
+        [
+          "mgl.wulanchabu.gov.cn",
+          50
+        ],
+        [
+          "mgl.tmtzq.gov.cn",
+          35
+        ],
+        [
+          "mgl.nmg.gov.cn",
+          20
+        ],
+        [
+          "mgl.ordos.gov.cn",
+          20
+        ],
+        [
+          "mgl.als.gov.cn",
+          7
+        ],
+        [
+          "mgl.zxbq.gov.cn",
+          2
+        ],
+        [
+          "mgl.guyang.gov.cn",
+          2
+        ]
+      ],
+      "candidate_training_rows_after_exact_exclusion": 51090,
+      "candidate_training_rows_after_content_exclusion": 50744
+    },
+    "ug": {
+      "file": "ug/ug-3.csv",
+      "bytes": 468395008,
+      "sha256": "1c53272054b3042c9e46c53350c9fea6ffef67f699a5b16046909232bf024467",
+      "columns": [
+        "id",
+        "title",
+        "content",
+        "url"
+      ],
+      "rows": 50600,
+      "row_width_errors": 0,
+      "missing_id": 0,
+      "missing_title": 0,
+      "missing_content": 26,
+      "duplicate_ids_within_full": 0,
+      "duplicate_title_content_pairs_within_full": 8841,
+      "annotated_unique_ids": 3000,
+      "annotated_unique_title_content_pairs": 2960,
+      "annotated_unique_normalized_contents": 2959,
+      "full_rows_matching_annotated_id": 1,
+      "full_rows_matching_annotated_pair": 1141,
+      "full_rows_matching_both": 1,
+      "full_rows_matching_annotated_normalized_content": 1247,
+      "full_rows_matching_content_but_not_pair": 106,
+      "unique_annotated_pairs_found_in_full": 931,
+      "matched_pair_url_hosts_top_10": [
+        [
+          "uy.aksxw.com",
+          1033
+        ],
+        [
+          "uygur.xinjiang.gov.cn",
+          88
+        ],
+        [
+          "uy.ts.cn",
+          16
+        ],
+        [
+          "xjrbuy.ts.cn",
+          4
+        ]
+      ],
+      "candidate_training_rows_after_exact_exclusion": 49433,
+      "candidate_training_rows_after_content_exclusion": 49327
+    }
+  }
+}

@@ -1,0 +1,514 @@
+{
+  "purpose": "Pipeline feasibility only; do not use as performance estimate",
+  "dataset_revision": "71e854248c3af4f12ad04abfb85848a0d648ae9e",
+  "model_id": "Qwen/Qwen3-8B",
+  "model_revision": "b968826d9c46dd6066d109eabc6255188de91218",
+  "transformers_version": "5.17.0",
+  "context_budget_tokens": 2048,
+  "languages": {
+    "bo": {
+      "n": 20,
+      "content_tokens_median": 2744.5,
+      "content_tokens_max": 6707,
+      "exceeds_context_budget_count": 13,
+      "records": [
+        {
+          "id": "81556",
+          "content_characters": 872,
+          "content_tokens": 1196,
+          "title_characters": 159,
+          "title_tokens": 218,
+          "exceeds_context_budget": false
+        },
+        {
+          "id": "26016",
+          "content_characters": 755,
+          "content_tokens": 1026,
+          "title_characters": 30,
+          "title_tokens": 40,
+          "exceeds_context_budget": false
+        },
+        {
+          "id": "39983",
+          "content_characters": 2743,
+          "content_tokens": 3729,
+          "title_characters": 120,
+          "title_tokens": 175,
+          "exceeds_context_budget": true
+        },
+        {
+          "id": "83531",
+          "content_characters": 2091,
+          "content_tokens": 2885,
+          "title_characters": 74,
+          "title_tokens": 99,
+          "exceeds_context_budget": true
+        },
+        {
+          "id": "47079",
+          "content_characters": 1967,
+          "content_tokens": 2604,
+          "title_characters": 79,
+          "title_tokens": 107,
+          "exceeds_context_budget": true
+        },
+        {
+          "id": "57429",
+          "content_characters": 3326,
+          "content_tokens": 4484,
+          "title_characters": 62,
+          "title_tokens": 83,
+          "exceeds_context_budget": true
+        },
+        {
+          "id": "14130",
+          "content_characters": 1518,
+          "content_tokens": 2105,
+          "title_characters": 148,
+          "title_tokens": 206,
+          "exceeds_context_budget": true
+        },
+        {
+          "id": "93855",
+          "content_characters": 2306,
+          "content_tokens": 3037,
+          "title_characters": 79,
+          "title_tokens": 102,
+          "exceeds_context_budget": true
+        },
+        {
+          "id": "100674",
+          "content_characters": 598,
+          "content_tokens": 836,
+          "title_characters": 7,
+          "title_tokens": 13,
+          "exceeds_context_budget": false
+        },
+        {
+          "id": "73440",
+          "content_characters": 1850,
+          "content_tokens": 2509,
+          "title_characters": 70,
+          "title_tokens": 98,
+          "exceeds_context_budget": true
+        },
+        {
+          "id": "85060",
+          "content_characters": 3695,
+          "content_tokens": 5035,
+          "title_characters": 73,
+          "title_tokens": 95,
+          "exceeds_context_budget": true
+        },
+        {
+          "id": "77407",
+          "content_characters": 821,
+          "content_tokens": 1138,
+          "title_characters": 153,
+          "title_tokens": 205,
+          "exceeds_context_budget": false
+        },
+        {
+          "id": "83628",
+          "content_characters": 3647,
+          "content_tokens": 5019,
+          "title_characters": 30,
+          "title_tokens": 43,
+          "exceeds_context_budget": true
+        },
+        {
+          "id": "70178",
+          "content_characters": 4884,
+          "content_tokens": 6707,
+          "title_characters": 54,
+          "title_tokens": 79,
+          "exceeds_context_budget": true
+        },
+        {
+          "id": "73182",
+          "content_characters": 1450,
+          "content_tokens": 2015,
+          "title_characters": 125,
+          "title_tokens": 184,
+          "exceeds_context_budget": false
+        },
+        {
+          "id": "65145",
+          "content_characters": 1376,
+          "content_tokens": 1899,
+          "title_characters": 87,
+          "title_tokens": 126,
+          "exceeds_context_budget": false
+        },
+        {
+          "id": "17831",
+          "content_characters": 2516,
+          "content_tokens": 3429,
+          "title_characters": 75,
+          "title_tokens": 103,
+          "exceeds_context_budget": true
+        },
+        {
+          "id": "64654",
+          "content_characters": 4166,
+          "content_tokens": 5822,
+          "title_characters": 91,
+          "title_tokens": 133,
+          "exceeds_context_budget": true
+        },
+        {
+          "id": "72719",
+          "content_characters": 769,
+          "content_tokens": 1068,
+          "title_characters": 87,
+          "title_tokens": 109,
+          "exceeds_context_budget": false
+        },
+        {
+          "id": "63461",
+          "content_characters": 2385,
+          "content_tokens": 3317,
+          "title_characters": 102,
+          "title_tokens": 147,
+          "exceeds_context_budget": true
+        }
+      ]
+    },
+    "mn": {
+      "n": 20,
+      "content_tokens_median": 3577.5,
+      "content_tokens_max": 6489,
+      "exceeds_context_budget_count": 14,
+      "records": [
+        {
+          "id": "15957",
+          "content_characters": 3138,
+          "content_tokens": 4103,
+          "title_characters": 57,
+          "title_tokens": 70,
+          "exceeds_context_budget": true
+        },
+        {
+          "id": "50612",
+          "content_characters": 1279,
+          "content_tokens": 1630,
+          "title_characters": 42,
+          "title_tokens": 52,
+          "exceeds_context_budget": false
+        },
+        {
+          "id": "12350",
+          "content_characters": 1593,
+          "content_tokens": 2075,
+          "title_characters": 119,
+          "title_tokens": 154,
+          "exceeds_context_budget": true
+        },
+        {
+          "id": "18375",
+          "content_characters": 2904,
+          "content_tokens": 3755,
+          "title_characters": 76,
+          "title_tokens": 96,
+          "exceeds_context_budget": true
+        },
+        {
+          "id": "42882",
+          "content_characters": 4968,
+          "content_tokens": 6489,
+          "title_characters": 429,
+          "title_tokens": 514,
+          "exceeds_context_budget": true
+        },
+        {
+          "id": "16799",
+          "content_characters": 222,
+          "content_tokens": 298,
+          "title_characters": 78,
+          "title_tokens": 104,
+          "exceeds_context_budget": false
+        },
+        {
+          "id": "17487",
+          "content_characters": 4427,
+          "content_tokens": 5696,
+          "title_characters": 31,
+          "title_tokens": 43,
+          "exceeds_context_budget": true
+        },
+        {
+          "id": "36858",
+          "content_characters": 3924,
+          "content_tokens": 5164,
+          "title_characters": 81,
+          "title_tokens": 106,
+          "exceeds_context_budget": true
+        },
+        {
+          "id": "4964",
+          "content_characters": 874,
+          "content_tokens": 1150,
+          "title_characters": 14,
+          "title_tokens": 17,
+          "exceeds_context_budget": false
+        },
+        {
+          "id": "31925",
+          "content_characters": 3066,
+          "content_tokens": 4095,
+          "title_characters": 225,
+          "title_tokens": 306,
+          "exceeds_context_budget": true
+        },
+        {
+          "id": "20587",
+          "content_characters": 62,
+          "content_tokens": 83,
+          "title_characters": 191,
+          "title_tokens": 250,
+          "exceeds_context_budget": false
+        },
+        {
+          "id": "47609",
+          "content_characters": 3403,
+          "content_tokens": 4495,
+          "title_characters": 148,
+          "title_tokens": 194,
+          "exceeds_context_budget": true
+        },
+        {
+          "id": "7051",
+          "content_characters": 2948,
+          "content_tokens": 3903,
+          "title_characters": 29,
+          "title_tokens": 36,
+          "exceeds_context_budget": true
+        },
+        {
+          "id": "11150",
+          "content_characters": 718,
+          "content_tokens": 905,
+          "title_characters": 69,
+          "title_tokens": 83,
+          "exceeds_context_budget": false
+        },
+        {
+          "id": "36771",
+          "content_characters": 1771,
+          "content_tokens": 2280,
+          "title_characters": 108,
+          "title_tokens": 134,
+          "exceeds_context_budget": true
+        },
+        {
+          "id": "6491",
+          "content_characters": 3274,
+          "content_tokens": 4259,
+          "title_characters": 108,
+          "title_tokens": 139,
+          "exceeds_context_budget": true
+        },
+        {
+          "id": "40811",
+          "content_characters": 2881,
+          "content_tokens": 3725,
+          "title_characters": 249,
+          "title_tokens": 323,
+          "exceeds_context_budget": true
+        },
+        {
+          "id": "213",
+          "content_characters": 2615,
+          "content_tokens": 3430,
+          "title_characters": 180,
+          "title_tokens": 235,
+          "exceeds_context_budget": true
+        },
+        {
+          "id": "24223",
+          "content_characters": 439,
+          "content_tokens": 560,
+          "title_characters": 85,
+          "title_tokens": 109,
+          "exceeds_context_budget": false
+        },
+        {
+          "id": "10977",
+          "content_characters": 1812,
+          "content_tokens": 2340,
+          "title_characters": 192,
+          "title_tokens": 251,
+          "exceeds_context_budget": true
+        }
+      ]
+    },
+    "ug": {
+      "n": 20,
+      "content_tokens_median": 2827.5,
+      "content_tokens_max": 10974,
+      "exceeds_context_budget_count": 13,
+      "records": [
+        {
+          "id": "47886",
+          "content_characters": 3525,
+          "content_tokens": 2608,
+          "title_characters": 89,
+          "title_tokens": 69,
+          "exceeds_context_budget": true
+        },
+        {
+          "id": "31849",
+          "content_characters": 172,
+          "content_tokens": 135,
+          "title_characters": 66,
+          "title_tokens": 57,
+          "exceeds_context_budget": false
+        },
+        {
+          "id": "18849",
+          "content_characters": 2605,
+          "content_tokens": 1984,
+          "title_characters": 99,
+          "title_tokens": 75,
+          "exceeds_context_budget": false
+        },
+        {
+          "id": "31057",
+          "content_characters": 3465,
+          "content_tokens": 2537,
+          "title_characters": 87,
+          "title_tokens": 69,
+          "exceeds_context_budget": true
+        },
+        {
+          "id": "6429",
+          "content_characters": 2862,
+          "content_tokens": 2142,
+          "title_characters": 105,
+          "title_tokens": 75,
+          "exceeds_context_budget": true
+        },
+        {
+          "id": "26357",
+          "content_characters": 4215,
+          "content_tokens": 3101,
+          "title_characters": 68,
+          "title_tokens": 49,
+          "exceeds_context_budget": true
+        },
+        {
+          "id": "38118",
+          "content_characters": 1817,
+          "content_tokens": 1338,
+          "title_characters": 127,
+          "title_tokens": 94,
+          "exceeds_context_budget": false
+        },
+        {
+          "id": "14484",
+          "content_characters": 14997,
+          "content_tokens": 10974,
+          "title_characters": 59,
+          "title_tokens": 46,
+          "exceeds_context_budget": true
+        },
+        {
+          "id": "6705",
+          "content_characters": 4693,
+          "content_tokens": 3579,
+          "title_characters": 127,
+          "title_tokens": 100,
+          "exceeds_context_budget": true
+        },
+        {
+          "id": "24081",
+          "content_characters": 6233,
+          "content_tokens": 4531,
+          "title_characters": 50,
+          "title_tokens": 32,
+          "exceeds_context_budget": true
+        },
+        {
+          "id": "7820",
+          "content_characters": 1168,
+          "content_tokens": 852,
+          "title_characters": 84,
+          "title_tokens": 61,
+          "exceeds_context_budget": false
+        },
+        {
+          "id": "37301",
+          "content_characters": 2607,
+          "content_tokens": 1856,
+          "title_characters": 56,
+          "title_tokens": 38,
+          "exceeds_context_budget": false
+        },
+        {
+          "id": "24652",
+          "content_characters": 2093,
+          "content_tokens": 1535,
+          "title_characters": 122,
+          "title_tokens": 86,
+          "exceeds_context_budget": false
+        },
+        {
+          "id": "49971",
+          "content_characters": 4141,
+          "content_tokens": 3103,
+          "title_characters": 94,
+          "title_tokens": 76,
+          "exceeds_context_budget": true
+        },
+        {
+          "id": "25106",
+          "content_characters": 4389,
+          "content_tokens": 3322,
+          "title_characters": 102,
+          "title_tokens": 77,
+          "exceeds_context_budget": true
+        },
+        {
+          "id": "41498",
+          "content_characters": 6630,
+          "content_tokens": 4906,
+          "title_characters": 156,
+          "title_tokens": 116,
+          "exceeds_context_budget": true
+        },
+        {
+          "id": "51107",
+          "content_characters": 7627,
+          "content_tokens": 5687,
+          "title_characters": 141,
+          "title_tokens": 108,
+          "exceeds_context_budget": true
+        },
+        {
+          "id": "33305",
+          "content_characters": 4131,
+          "content_tokens": 3047,
+          "title_characters": 100,
+          "title_tokens": 73,
+          "exceeds_context_budget": true
+        },
+        {
+          "id": "46599",
+          "content_characters": 4564,
+          "content_tokens": 3316,
+          "title_characters": 75,
+          "title_tokens": 58,
+          "exceeds_context_budget": true
+        },
+        {
+          "id": "37600",
+          "content_characters": 2839,
+          "content_tokens": 2040,
+          "title_characters": 80,
+          "title_tokens": 53,
+          "exceeds_context_budget": false
+        }
+      ]
+    }
+  }
+}

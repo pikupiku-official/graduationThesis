@@ -1,0 +1,188 @@
+{
+  "dataset_id": "KEVVVV/CMHG",
+  "revision": "71e854248c3af4f12ad04abfb85848a0d648ae9e",
+  "generated_at_utc": "2026-09-19T16:46:09.412Z",
+  "scope": "Six annotated CSV files only; unannotated full CSV files not audited",
+  "files": [
+    {
+      "path": "bo/average_score_4_or_higher.csv",
+      "bytes": 16805094,
+      "sha256": "497dbc1d5492a9dd1f91a27af7372f3857d031f34ec260819b2db6b9d5746795",
+      "columns": [
+        "id",
+        "title",
+        "content",
+        "title_match_1",
+        "title_match_2",
+        "tendency",
+        "average_score",
+        "score_difference"
+      ],
+      "rows": 2901,
+      "row_width_errors": 0,
+      "missing_id": 0,
+      "missing_title": 0,
+      "missing_content": 0,
+      "average_score_outside_1_to_7": 0,
+      "average_score_minus_one": 0,
+      "wrong_score_category": 0,
+      "duplicate_ids_within_language": 0,
+      "duplicate_title_content_pairs_within_language": 14
+    },
+    {
+      "path": "bo/average_score_below_4.csv",
+      "bytes": 491986,
+      "sha256": "087f226f3b8ca966269e606bc628274e56010d6226ce59d006c89e1edd6c8fa6",
+      "columns": [
+        "id",
+        "title",
+        "content",
+        "title_match_1",
+        "title_match_2",
+        "tendency",
+        "average_score",
+        "score_difference"
+      ],
+      "rows": 99,
+      "row_width_errors": 0,
+      "missing_id": 0,
+      "missing_title": 0,
+      "missing_content": 0,
+      "average_score_outside_1_to_7": 97,
+      "average_score_minus_one": 97,
+      "wrong_score_category": 0,
+      "duplicate_ids_within_language": 0,
+      "duplicate_title_content_pairs_within_language": 0
+    },
+    {
+      "path": "mn/average_score_4_or_higher.csv",
+      "bytes": 18783651,
+      "sha256": "40d8a3e458195a85347cfc1e8764491630c220863510fd324e6a805d0ac8b2a4",
+      "columns": [
+        "id",
+        "title",
+        "content",
+        "title_match_1",
+        "title_match_2",
+        "tendency",
+        "average_score",
+        "score_difference"
+      ],
+      "rows": 2931,
+      "row_width_errors": 0,
+      "missing_id": 0,
+      "missing_title": 0,
+      "missing_content": 2,
+      "average_score_outside_1_to_7": 0,
+      "average_score_minus_one": 0,
+      "wrong_score_category": 0,
+      "duplicate_ids_within_language": 2,
+      "duplicate_title_content_pairs_within_language": 22
+    },
+    {
+      "path": "mn/average_score_below_4.csv",
+      "bytes": 119620,
+      "sha256": "98c36ec49741f13c849c299b842855f777ca3a0d69c534de094b789d515f0ed0",
+      "columns": [
+        "id",
+        "title",
+        "content",
+        "title_match_1",
+        "title_match_2",
+        "tendency",
+        "average_score",
+        "score_difference"
+      ],
+      "rows": 69,
+      "row_width_errors": 0,
+      "missing_id": 0,
+      "missing_title": 0,
+      "missing_content": 0,
+      "average_score_outside_1_to_7": 45,
+      "average_score_minus_one": 45,
+      "wrong_score_category": 0,
+      "duplicate_ids_within_language": 0,
+      "duplicate_title_content_pairs_within_language": 0
+    },
+    {
+      "path": "ug/average_score_4_or_higher.csv",
+      "bytes": 27036262,
+      "sha256": "2dcc8e9495f7f07f475e9f2ea941590973016b7a4c46e3145096062e1b26f93c",
+      "columns": [
+        "id",
+        "title",
+        "content",
+        "title_match_1",
+        "title_match_2",
+        "tendency",
+        "average_score",
+        "score_difference"
+      ],
+      "rows": 2949,
+      "row_width_errors": 0,
+      "missing_id": 0,
+      "missing_title": 0,
+      "missing_content": 0,
+      "average_score_outside_1_to_7": 0,
+      "average_score_minus_one": 0,
+      "wrong_score_category": 0,
+      "duplicate_ids_within_language": 0,
+      "duplicate_title_content_pairs_within_language": 40
+    },
+    {
+      "path": "ug/average_score_below_4.csv",
+      "bytes": 313153,
+      "sha256": "9e0b57367ea41d655319666c653936c2f56158423df50085b63d92047478264a",
+      "columns": [
+        "id",
+        "title",
+        "content",
+        "title_match_1",
+        "title_match_2",
+        "tendency",
+        "average_score",
+        "score_difference"
+      ],
+      "rows": 51,
+      "row_width_errors": 0,
+      "missing_id": 0,
+      "missing_title": 0,
+      "missing_content": 0,
+      "average_score_outside_1_to_7": 28,
+      "average_score_minus_one": 28,
+      "wrong_score_category": 0,
+      "duplicate_ids_within_language": 0,
+      "duplicate_title_content_pairs_within_language": 0
+    }
+  ],
+  "language_summary": {
+    "bo": {
+      "annotated_rows": 3000,
+      "high_score_rows": 2901,
+      "low_score_rows": 99,
+      "duplicate_ids_within_language": 0,
+      "duplicate_title_content_pairs_within_language": 14,
+      "dev_ids_count": 20
+    },
+    "mn": {
+      "annotated_rows": 3000,
+      "high_score_rows": 2931,
+      "low_score_rows": 69,
+      "duplicate_ids_within_language": 2,
+      "duplicate_title_content_pairs_within_language": 22,
+      "dev_ids_count": 20
+    },
+    "ug": {
+      "annotated_rows": 3000,
+      "high_score_rows": 2949,
+      "low_score_rows": 51,
+      "duplicate_ids_within_language": 0,
+      "duplicate_title_content_pairs_within_language": 40,
+      "dev_ids_count": 20
+    }
+  },
+  "caveats": [
+    "The 20 development IDs per language are for pipeline checks, not performance estimates.",
+    "A future full-data audit must check evaluation/training overlap and near duplicates."
+  ]
+}
