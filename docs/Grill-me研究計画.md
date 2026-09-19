@@ -45,6 +45,10 @@ Goal: 卒業論文として成立する研究目的、実験範囲、判断基�
 
 外部資料確認：CMHGの公式Hugging Faceデータセットビューアは、CSV間で列が一致しないため `DatasetGenerationCastError` を表示する。個別CSVの取得と列監査が必要。参照：https://huggingface.co/datasets/KEVVVV/CMHG
 
+### 点検の目的に関する確認
+
+ユーザーから「点検の目的は？」との確認があった。ここでの点検は研究結果を出すためではなく、CMHGの公開ファイルとローカル推論経路が比較可能な状態にあるかを確かめる準備作業である。全件に対する機械的なデータ監査と、各言語20件程度の動作確認を区別する。20件は性能評価にも対象言語の優劣判定にも使わない。この疑問は計画の説明不足として受け止め、プロトコルの記述を修正した。追加のユーザー判断は現時点で不要。
+
 ## Decisions
 
 - Use this file as the durable discovery record for the research-plan interview.
