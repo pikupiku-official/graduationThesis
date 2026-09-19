@@ -1,0 +1,31 @@
+{
+  "run_id": "direct_bo_mn_modelA_REPLACE_SHA",
+  "dataset": {
+    "id": "KEVVVV/CMHG",
+    "revision": "PIN_THIS_REVISION",
+    "languages": ["bo", "mn"],
+    "split": "evaluation_only_until_audit"
+  },
+  "model": {
+    "name": "PIN_MODEL_NAME",
+    "revision": "PIN_MODEL_REVISION",
+    "quantization": "PIN_OR_NONE",
+    "tokenizer": "same_as_model"
+  },
+  "task": "generation",
+  "condition": "direct",
+  "decoding": {
+    "seed": 42,
+    "temperature": 0.0,
+    "top_p": 1.0,
+    "max_new_tokens": 64,
+    "do_sample": false,
+    "stop": []
+  },
+  "evaluation": {
+    "metrics": ["rougeL", "chrf", "invalid_output_rate", "input_output_token_length"],
+    "unicode_normalization": "PIN_RULE",
+    "error_sample_size": 100
+  },
+  "code_commit": "PIN_AFTER_IMPLEMENTATION"
+}
