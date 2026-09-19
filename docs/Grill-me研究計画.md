@@ -10,6 +10,8 @@ Goal: 卒業論文として成立する研究目的、実験範囲、判断基�
 
 暫定的には、研究を成立させる最小構成を先に確保し、追加実験が失敗しても生成・選択比較で卒論を完成できる設計にする。
 
+2026年9月20日の回答により、最終提出日は2026年12月31日、中間期限は現時点でなし、最優先条件は卒業可能な論文を完成させることと確認された。研究の中心成果は、比較結果を入力すると失敗要因の候補と残る不確実性を示す診断フローとする。モデル・言語・サンプル数・負例作成の詳細は研究成立性を優先してこちらで仮決定できる。外部APIと有料GPUはできるだけ使わず、ローカルのRTX 5060 Ti 16GBを起点にする。
+
 ## Q&A log
 
 ### Session 2026-09-20
@@ -19,6 +21,30 @@ Goal: 卒業論文として成立する研究目的、実験範囲、判断基�
 - The project folder already contains a research plan DOCX and structured Markdown planning documents.
 - The interview mode is treated as ongoing context because the research plan must remain usable across future sessions.
 
+### 回答 2026-09-20
+
+| 番号 | 回答の記録 | 状態 |
+| --- | --- | --- |
+| 1 | 最終提出日：2026年12月31日 | 確認済み。大学の正式要項との照合は未実施 |
+| 2 | 中間期限：なし | 本人回答 |
+| 3 | 新規性のある学士論文で卒業したい。必要成果の具体的な評価基準は不明 | 目標は確認済み、基準は未確認 |
+| 4 | 失敗原因を診断するフローチャートの形を想定 | 方向性は確認済み |
+| 5 | 対象言語は未定、検証して決める | 未決定 |
+| 6 | モデルは未定、変化が速いため現時点で固定したくない | 未決定 |
+| 7 | PC環境は助手がdxdiagで確認する | 委任 |
+| 8–10 | データ規模、4択、負例設計は助手に委任 | 委任 |
+| 11–13 | 翻訳媒介とQLoRAは診断上重要そうだが、必須かどうかは助手に委任 | 研究上の依存関係を要確認 |
+| 14 | 評価者はLLMを想定 | 本人回答。信頼性の検証は必要 |
+| 15 | 提案した評価指標でよい | 暫定承認 |
+| 16 | 外部API・有料GPUはあまり使いたくない | 制約 |
+| 17 | 卒業できないことを避けたい | 最優先制約 |
+| 18 | 厳密なAPA形式を希望 | 希望。大学指定の確認は未実施 |
+| 19 | 未回答項目は助手が研究成立性を優先して仮決定してよい | 委任 |
+
+環境確認：`dxdiag` でWindows 11 Home、Ryzen 7 5700X、RAM 32GB、RTX 5060 Ti、専用VRAM約16GBを確認。`nvidia-smi` ではGPU総量16,311MiB、確認時の空き10,772MiB。数値は実験時に再確認する。Windowsの`python`コマンドは現時点で利用できず、Python環境の準備が必要。
+
+外部資料確認：CMHGの公式Hugging Faceデータセットビューアは、CSV間で列が一致しないため `DatasetGenerationCastError` を表示する。個別CSVの取得と列監査が必要。参照：https://huggingface.co/datasets/KEVVVV/CMHG
+
 ## Decisions
 
 - Use this file as the durable discovery record for the research-plan interview.
@@ -26,6 +52,11 @@ Goal: 卒業論文として成立する研究目的、実験範囲、判断基�
 - After the user answers, update this file, reconcile contradictions, and continue with a revised question list if needed.
 - Record confirmed facts separately from assumptions and unresolved decisions.
 - Keep the minimal viable thesis separate from optional experiments.
+- 最終提出日を2026年12月31日として逆算する。正式な提出要項を入手したら照合する。
+- 中核成果は「失敗要因候補を示す診断フローと、その各分岐を支える実験結果」とする。
+- 外部APIと有料GPUを前提にしない。
+- 人手による対象言語の内容評価は確保できていない。LLM判定は補助証拠として扱い、無検証の正解ラベルにしない。
+- 形式はAPA第7版を仮採用し、大学指定があればそちらを優先する。
 
 ## Initial question list
 
@@ -52,8 +83,9 @@ Answer in one message using the same numbers. `未定` is acceptable. If the dec
 
 ## Open questions
 
-- What is the official submission deadline and what intermediate deadlines exist?
-- What result would count as a successful graduation thesis if QLoRA or translation-mediated processing cannot be completed?
-- Which hardware and software environment is actually available?
-- Which two languages and which primary model should be fixed?
-- How will the selection task and hard negatives be constructed without leaking the answer?
+- 大学の正式な提出要項、字数、提出形式、指導教員の最低基準は未入手。
+- 対象言語とモデルは、データ・tokenizer・推論の小規模監査後に固定する。
+- 生成と選択の課題難度が異なるため、両者の差から「理解不足」と「生成不足」をどこまで言えるか、解釈規則を事前登録する。
+- 翻訳媒介は言語処理の切り分けに有用だが、翻訳器の誤りが交絡する。実施範囲と対照条件を確定する。
+- QLoRAは適応可能性を検証する介入であり、失敗原因の診断に必須かどうかを研究上の問いに合わせて決める。
+- LLMによるエラー分類の妥当性をどう監査するか。
