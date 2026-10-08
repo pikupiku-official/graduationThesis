@@ -3,7 +3,7 @@
   "dataset": {
     "id": "KEVVVV/CMHG",
     "revision": "PIN_THIS_REVISION",
-    "languages": ["bo", "mn"],
+    "languages": ["bo", "mn", "ug"],
     "split": "evaluation_only_until_audit"
   },
   "model": {
